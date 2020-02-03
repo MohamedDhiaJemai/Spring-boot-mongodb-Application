@@ -36,7 +36,7 @@ public class UserController {
 		return (userRepo.findAll());
 	}
 
-	@PostMapping("/add")
+	@PostMapping(value = "/add" )
 	public User save(@RequestBody User user) {
 		return userRepo.save(user);
 	}

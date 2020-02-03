@@ -17,8 +17,10 @@ public class User {
 	private long telephone;
 	private long idCCMS;
 	private String matricule;
+	
 	@NotNull
 	private String role;
+	
 	@NotNull
 	private String centre;
 	
